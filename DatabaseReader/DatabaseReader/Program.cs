@@ -7,7 +7,7 @@ namespace DatabaseReader
 {
     internal class Program
     {
-        private static readonly string connectionString = "Server=172.17.0.2;Port=5432;Database=postgres;User Id=postgres;SearchPath=test_schema;Password=mysecretpassword;";
+        private static readonly string connectionString = "Server=postgres;Port=5432;Database=postgres;User Id=postgres;SearchPath=test_schema;Password=mysecretpassword;";
 
         static void Main(string[] args)
         {
